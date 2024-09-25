@@ -1,0 +1,35 @@
+.create-form{
+    display: flex;
+    justify-content: center;
+}
+.create-form input{
+    width: 370px;
+    height: 33px;
+}
+.create-form label{
+    font-size: larger;
+}
+.create-form button{
+    width: 142px;
+    height: 41px;
+    font-size: medium;
+    background-color: black;
+    color: white;
+}
+.btn{
+    width: 372px;
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width:600px) and (min-width:300px){
+    .create-form input{
+        width: 300px;
+        height: 33px;
+    }
+    .btn{
+        width: 310px;
+        display: flex;
+        justify-content: space-around;
+    }
+}
